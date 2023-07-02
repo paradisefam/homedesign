@@ -6,7 +6,7 @@ export default function Home() {
     <main className="landing text-white">
       <div className="grid">
         <div className="mx-[135px]">
-          <div className="timeline-badge mt-[230px] flex mx-[217.5px]">
+          <div className="timeline-badge mt-[100px] flex mx-[100px]">
             <div className="w-1/5 h-[138px]">
               <div className="badge-circle w-[80px] h-[80px] m-auto rounded-full flex justify-center items-center text-white text-[48px]">
                 <span>1</span>
@@ -34,21 +34,49 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4 mx-[65px] mt-[34px]">
-            <div className="w-full text-[32px]">
-              1. Which couch would you prefer to snuggle up on ?
+
+          <div className="flex flex-row mb-[30px] mt-[30px] ml-[30px]">
+            <div className="basis-1/2 h-[300px] overflow-auto">
+              <div className="text-[25px] pl-[30px]">
+                1. Which couch would you prefer to snuggle up on ?
+              </div>
+              <div className="flex flex-row">
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+              </div>
+              <div className="flex flex-row">
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+              </div>
+              <div className="flex flex-row">
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+                <div className="basis-1/3 p-[10px]">
+                  <img src="assets/images/step1/home1.png" alt="" />
+                </div>
+              </div>
             </div>
-            <div className="w-full text-[24px] mt-[8px]">
-              You almost done. Upload the image and make your own home.
-            </div>
+            <div className="basis-1/2">asdfsda</div>
           </div>
-          <div className="grid grid-cols-2 gap-4 h-[825px]">
-            <div className="w-full grid grid-cols-3 gap-4 bg-scroll">
-              <div className="bg-[url('/assets/images/step1/home1.png')] bg-contain h-full mb-[40px]"></div>
-              <div className="bg-[url('/assets/images/step1/home2.png')] bg-contain h-full mb-[40px]"></div>
-              <div className="bg-[url('/assets/images/step1/home1.png')] bg-contain h-full mb-[40px]"></div>
-            </div>
-          </div>
+
           <div className="w-[568px] gap-[128px] flex mx-auto">
             <HomeBtn className="text-white text-[26px] my-[50px] failed">
               Try again

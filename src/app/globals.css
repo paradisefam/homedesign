@@ -119,3 +119,38 @@ body {
 .failed {
   background-color: #0e1e2b !important;
 }
+
+.card {
+  border-radius: 24px;
+  box-shadow: inset 0px 0px 6px 0px #66d7eb;
+  background-color: transparent;
+  background-position: center top;
+  background-repeat: no-repeat;
+  top: 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #66d7eb;
+}
+
+.container-custom {
+  width: 90%;
+  margin: auto;
+}
+
+.buy-now {
+  border-radius: 24px;
+  box-shadow: inset 0px 0px 6px 0px #66d7eb;
+  color: #66d7eb;
+  background-color: transparent;
+  background-position: center top;
+  background-repeat: no-repeat;
+  top: 0;
+  width: 178px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #66d7eb;
+  margin: auto;
+}
