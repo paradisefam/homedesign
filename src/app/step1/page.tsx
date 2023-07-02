@@ -36,42 +36,173 @@ export default function Home() {
           </div>
 
           <div className="flex flex-row mb-[30px] mt-[30px] ml-[30px]">
-            <div className="basis-1/2 h-[300px] overflow-auto">
+            <div className="basis-1/2">
               <div className="text-[25px] pl-[30px]">
                 1. Which couch would you prefer to snuggle up on ?
               </div>
-              <div className="flex flex-row">
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
+              <div className="h-[580px] overflow-auto">
+                <div className="flex flex-row">
+                  <div className="basis-1/3 p-[10px] relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px] relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
                 </div>
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
+                <div className="flex flex-row">
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
                 </div>
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
+                <div className="flex flex-row">
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                </div>
+                <div className="flex flex-row">
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                </div>
+                <div className="flex flex-row">
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                </div>
+                <div className="flex flex-row">
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
+                  <div className="basis-1/3 p-[10px]  relative inline-block">
+                    <input
+                      type="checkbox"
+                      className="absolute top-5 left-5"
+                      id="checkbox"
+                    ></input>
+                    <img src="assets/images/step1/home1.png" alt="" />
+                  </div>
                 </div>
               </div>
-              <div className="flex flex-row">
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
-                </div>
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
-                </div>
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
-                </div>
-              </div>
-              <div className="flex flex-row">
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
-                </div>
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
-                </div>
-                <div className="basis-1/3 p-[10px]">
-                  <img src="assets/images/step1/home1.png" alt="" />
-                </div>
+              <div className="mt-[30px]">
+                <HomeBtn className="text-white back-button float-left">
+                  Back
+                </HomeBtn>
+                <HomeBtn className="text-white float-right">Next</HomeBtn>
               </div>
             </div>
             <div className="basis-1/2">asdfsda</div>

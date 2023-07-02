@@ -154,3 +154,7 @@ body {
   border: 2px solid #66d7eb;
   margin: auto;
 }
+
+.back-button {
+  background-color: #0e1e2b;
+}
