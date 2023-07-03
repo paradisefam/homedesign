@@ -33,45 +33,47 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row w-[80%] mx-auto">
-          <div className="basis-1/2 p-[20px] pt-0">
+        {/* <div className="flex flex-row w-[80%] mx-auto">
+          <div className="basis-1/2">
             <img
               src="assets/images/work/original.png"
               className="rounded-custom"
             />
           </div>
-          <div className="basis-1/2 p-[20px] pt-0">
+          <div className="basis-1/2">
             <img
               src="assets/images/work/generated.png"
               className="rounded-custom"
+            />
+          </div>
+        </div> */}
+        <div className="w-[65%] mx-auto flex items-center justify-center py-16 relative">
+          <img src="assets/images/home1.png" className="w-1/2" />
+          <img src="assets/images/home2.png" className="w-1/2" />
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-white  change-home-btn">
+            <img
+              src="assets/images/Code_light.png"
+              className="w-[15px] md:w-[50px] m-[8px] md:m-[25px] bg-transparent"
             />
           </div>
         </div>
 
-        <div className="flex flex-row w-[80%] mx-auto">
-          <div className="basis-1/2 p-[20px] pt-0">
-            <img
-              src="assets/images/work/original.png"
-              className="rounded-custom"
-            />
+        <div className="flex mx-auto items-center justify-between w-[60%]">
+          <div>
+            <HomeBtn className="text-white text-[26px] my-[50px] failed">
+              Try again
+            </HomeBtn>
           </div>
-          <div className="basis-1/2 p-[20px] pt-0">
-            <img
-              src="assets/images/work/generated.png"
-              className="rounded-custom"
-            />
+          <div>
+            <HomeBtn className="text-white text-[26px] my-[50px]">
+              Share
+            </HomeBtn>
           </div>
-        </div>
-        <div className="w-[568px] gap-[128px] flex mx-auto">
-          <HomeBtn className="text-white text-[26px] my-[50px] failed">
-            Try again
-          </HomeBtn>
-          <HomeBtn className="text-white text-[26px] my-[50px]">
-            Get Started
-          </HomeBtn>
-        </div>
-        <div className="text-[20px] text-white text-center mb-[30px]">
-          You have remaining 4 credits now. Please click here to buy credit.
+          <div>
+            <HomeBtn className="text-white text-[26px] my-[50px] preview-btn">
+              Preview
+            </HomeBtn>
+          </div>
         </div>
       </div>
     </main>
