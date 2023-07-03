@@ -1,4 +1,7 @@
 import HomeBtn from "@/components/HomeBtn";
+import FileUpload from "@/components/FileUpload";
+import FormSelect from "@/components/FormSelect";
+import MessageInput from "@/components/MessageInput";
 import Image from "next/image";
 
 export default function Home() {
@@ -205,17 +208,95 @@ export default function Home() {
                 <HomeBtn className="text-white float-right">Next</HomeBtn>
               </div>
             </div>
-            <div className="basis-1/2">asdfsda</div>
+            <div className="basis-1/2 ml-[20px]">
+              <div className="text-[20px]">
+                You almost done. Upload the image and make your own home.
+              </div>
+              <div className="relative mt-5">
+                <FileUpload></FileUpload>
+              </div>
+              <div className="flex flex-row gap-4 mt-[20px]">
+                <div className="basis-1/2">
+                  <FormSelect />
+                </div>
+                <div className="basis-1/2">
+                  <FormSelect />
+                </div>
+              </div>
+              <div className="mt-[20px]">
+                <MessageInput
+                  id="message"
+                  rows="6"
+                  placeholder="Type your prompt here..."
+                />
+              </div>
+              {/* <div className="">
+                <input
+                  type="checkbox"
+                  id="my-checkbox"
+                  value=""
+                  className="w-6 h-6 border custom-checkbox"
+                  required
+                />
+                <label htmlFor="my-checkbox"></label>
+                <span>
+                  <div className="isolate">
+                    Design can be published publicly (Pro)
+                  </div>
+                </span>
+              </div> */}
+              <div className="mt-[10px]">
+                <label className="inline-flex items-center">
+                  <input
+                    type="checkbox"
+                    className="form-checkbox h-5 w-5 text-gray-600 checked:bg-white checked:border-transparent myinput"
+                    name="checkbox"
+                  />
+                  <div className="mydisplay"></div>
+                  <span className="ml-2 text-white">
+                    Design can be published publicly (Pro)
+                  </span>
+                </label>
+              </div>
+
+              <div className="mt-[10px]">
+                <label className="inline-flex items-center">
+                  <input
+                    type="checkbox"
+                    className="form-checkbox h-5 w-5 text-gray-600 checked:bg-white checked:border-transparent"
+                  />
+                  <span className="ml-2 text-white">
+                    Design recommendation (Pro)
+                  </span>
+                </label>
+              </div>
+              <div className="mt-[10px]">
+                <label className="inline-flex items-center">
+                  <input
+                    type="checkbox"
+                    className="form-checkbox h-5 w-5 text-gray-600 checked:bg-white checked:border-transparent"
+                  />
+                  <span className="ml-2 text-white">
+                    How much you consider to spend on renovation ?
+                  </span>
+                </label>
+                {/* <form>
+                  <div className="flex items-center border-b border-blue-500 py-2">
+                    <div className="bg-[#66d7eb] px-3">
+                      <span className="text-blue-500">@</span>
+                    </div>
+                    <input
+                      type="text"
+                      className="outline-none bg-transparent placeholder-gray-500 text-gray-700"
+                      placeholder="Username"
+                    />
+                  </div>
+                </form> */}
+                <FormSelect />
+              </div>
+            </div>
           </div>
 
-          <div className="w-[568px] gap-[128px] flex mx-auto">
-            <HomeBtn className="text-white text-[26px] my-[50px] failed">
-              Try again
-            </HomeBtn>
-            <HomeBtn className="text-white text-[26px] my-[50px]">
-              Get Started
-            </HomeBtn>
-          </div>
           <div className="text-[20px] text-white text-center mb-[30px]">
             You have remaining 4 credits now. Please click here to buy credit.
           </div>
