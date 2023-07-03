@@ -1,15 +1,21 @@
 "use client";
 import React from "react";
 
-function MessageInput(props) {
+type Props = {
+  id: string;
+  rows: number;
+  placeholder: string;
+};
+
+const MessageInput: React.FC<Props> = ({ id, rows, placeholder }) => {
   return (
     <textarea
-      id={props.id}
-      rows={props.rows}
-      className="block p-2.5 w-full text-md text-gray-900 custom-textarea rounded-lg border"
-      placeholder={props.placeholder}
+      id={id}
+      rows={rows}
+      className="block p-2.5 w-full text-md text-gray-900 custom-textarea rounded-lg"
+      placeholder={placeholder}
     />
   );
-}
+};
 
 export default MessageInput;

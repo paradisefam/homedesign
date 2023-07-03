@@ -180,9 +180,9 @@ body {
 }
 
 .form-select {
-  appearance: none;
+  /* appearance: none;
   -webkit-appearance: none;
-  -moz-appearance: none;
+  -moz-appearance: none; */
   background-color: transparent;
   border: 2px solid #66d7eb;
   color: white;
@@ -205,39 +205,37 @@ body {
 
 .custom-textarea {
   background-color: transparent;
-  border-color: #66d7eb;
+  border: 2px solid #66d7eb;
 }
 
 .custom-textarea:focus {
   outline: none;
-  border: 2px solid #4299e1;
+  border: 2px solid #66d7eb;
   color: white;
 }
 
-.custom-checkbox {
-  display: none; /* hide the default checkbox */
+/* .checkbox-container:hover input ~ .checkmark {
+  background-color: #cccccc0e;
 }
 
-.custom-checkbox + label:before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 18px;
-  height: 18px;
-  margin-right: 10px;
-  border: 2px solid #66d7eb;
-  border-radius: 3px;
-}
-
-.custom-checkbox:checked + label:before {
+.checkbox-container input:checked ~ .checkmark {
   background-color: transparent;
-  content: "\2713";
-  color: #fff;
-  text-align: center;
-  font-size: 12px;
-  line-height: 16px;
+} */
+
+.checkbox-container .item-checked {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-label {
-  cursor: pointer; /* make the label clickable */
+.generate-btn {
+  background-color: rgba(102, 215, 235, 0.4);
 }
