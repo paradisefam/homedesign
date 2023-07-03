@@ -8,7 +8,7 @@ const Amount: React.FC = () => {
       </div>
       <select
         id="states"
-        className="border border-[1px] border-[#66d7eb] rounded-e-md outline-none bg-transparent py-1 "
+        className="border-[1px] border-[#66d7eb] rounded-e-md outline-none bg-transparent py-1 "
       >
         <option selected className="text-black">
           500

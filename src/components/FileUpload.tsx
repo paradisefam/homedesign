@@ -4,9 +4,12 @@ import { useState } from "react";
 function FileUpload() {
   const [fileName, setFileName] = useState("");
 
-  const handleFileInputChange = (e) => {
-    setFileName(e.target.files[0].name);
-    // handle file upload logic here
+  const handleFileInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = e.target.files;
+    if (files && files.length > 0) {
+      setFileName(files[0].name);
+      // handle file upload logic here
+    }
   };
 
   return (
