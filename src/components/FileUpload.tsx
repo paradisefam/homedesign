@@ -18,7 +18,7 @@ function FileUpload() {
         <div className="imageContainer">
           <img src="assets/images/step1/Img_box.png" alt="" />
         </div>
-        <div className="text-[18px] text-center mt-[150px]">
+        <div className="text-[14px] text-center mt-[120px]">
           Drop an image, tap, take a <br />
           photo, or CTRL + V{" "}
         </div>

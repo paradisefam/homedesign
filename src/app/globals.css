@@ -117,7 +117,7 @@ body {
   border-radius: 30px;
 }
 
-.failed {
+.failed-btn {
   background-color: #0e1e2b !important;
 }
 
@@ -137,7 +137,7 @@ body {
 
 .container-custom {
   width: 90%;
-  margin: auto;
+  margin-inline: auto;
 }
 
 .buy-now {
@@ -162,7 +162,7 @@ body {
 
 .customFileUpload {
   width: 100%;
-  height: 300px;
+  height: 200px;
   border: 2px dashed #66d7eb;
   border-radius: 10px;
   display: inline-block;

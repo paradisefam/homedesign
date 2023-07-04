@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="landing text-white">
-      <div className="my-[18px] md:pt-0 mx-[48px] md:mx-[236px]">
+      <div className="my-[18px] md:pt-8 mx-[48px] md:mx-[236px]">
         <div className="md:hidden flex items-center justify-between">
           <img src="assets/images/logo.png" width={"71px"} />
           <img src="assets/images/ic_round-menu.png" width={"24px"} />
