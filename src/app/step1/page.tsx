@@ -11,30 +11,30 @@ export default function Home() {
     <main className="landing text-white">
       <div className="grid">
         <div className="w-[70%] mx-auto">
-          <div className="timeline-badge mt-[20px] flex mx-[100px]">
+          <div className="timeline-badge mt-[10px] flex mx-[100px]">
             <div className="w-1/5">
-              <div className="bg-[#164555] w-[40px] h-[40px] m-auto rounded-full flex justify-center items-center text-white text-[30px]">
+              <div className="bg-[#164555] w-[30px] h-[30px] m-auto rounded-full flex justify-center items-center text-white text-[25px]">
                 <span>1</span>
               </div>
-              <div className="text-[18px] mt-[5px] text-center">
+              <div className="text-[14px] mt-[5px] text-center">
                 Calculate style
               </div>
             </div>
-            <div className="badge-line mt-[20px] w-1/5 h-[3px] "></div>
+            <div className="badge-line mt-[15px] w-1/5 h-[3px] "></div>
             <div className="w-1/5">
-              <div className="bg-[#164555] w-[40px] h-[40px] m-auto rounded-full flex justify-center items-center text-white text-[30px]">
+              <div className="bg-[#164555] w-[30px] h-[30px] m-auto rounded-full flex justify-center items-center text-white text-[25px]">
                 <span>2</span>
               </div>
-              <div className="text-[18px] mt-[5px] text-center">
+              <div className="text-[14px] mt-[5px] text-center">
                 Upload image
               </div>
             </div>
-            <div className="badge-line mt-[20px] w-1/5 h-[3px] "></div>
+            <div className="badge-line mt-[15px] w-1/5 h-[3px] "></div>
             <div className="w-1/5">
-              <div className="badge-circle w-[40px] h-[40px] m-auto rounded-full flex justify-center items-center text-white text-[30px]">
+              <div className="badge-circle w-[30px] h-[30px] m-auto rounded-full flex justify-center items-center text-white text-[25px]">
                 <span>3</span>
               </div>
-              <div className="text-[18px] mt-[5px] text-center">
+              <div className="text-[14px] mt-[5px] text-center">
                 Generate design
               </div>
             </div>
