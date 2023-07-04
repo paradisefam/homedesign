@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center relative w-[60%] mx-auto">
+        <div className="flex items-center justify-center relative w-[65%] mx-auto">
           <img src="assets/images/home1.png" className="w-1/2" />
           <img src="assets/images/home2.png" className="w-1/2" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-white  change-home-btn">
