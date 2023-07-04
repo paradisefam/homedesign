@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row mb-[10px] ml-[30px]">
             <div className="basis-1/2">
-              <div className="h-[550px] overflow-auto">
+              <div className="h-[520px] overflow-auto">
                 <div className="flex flex-row">
                   <div className="basis-1/3 p-[10px] pt-0 relative inline-block">
                     <input
@@ -225,7 +225,7 @@ export default function Home() {
               <div className="relative">
                 <FileUpload></FileUpload>
               </div>
-              <div className="flex flex-row gap-4 mt-[20px]">
+              <div className="flex flex-row gap-4 mt-[10px]">
                 <div className="basis-1/2">
                   <FormSelect />
                 </div>
@@ -233,7 +233,7 @@ export default function Home() {
                   <FormSelect />
                 </div>
               </div>
-              <div className="mt-[20px] mb-1">
+              <div className="mt-[10px] mb-1">
                 <MessageInput
                   id="message"
                   rows={4}
@@ -274,7 +274,7 @@ export default function Home() {
                   <span className="pl-2">Lighting</span>
                 </div>
               </div>
-              <div className="mt-[40px]">
+              <div className="mt-[30px]">
                 <HomeBtn className="generate-btn text-white w-full">
                   Generate Your Home
                 </HomeBtn>
