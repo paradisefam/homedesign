@@ -52,7 +52,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row mb-[30px] ml-[30px]">
+          <div className="flex flex-row mb-[10px] ml-[30px]">
             <div className="basis-1/2">
               <div className="h-[550px] overflow-auto">
                 <div className="flex flex-row">
