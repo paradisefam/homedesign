@@ -9,7 +9,7 @@ export default function Home() {
           <img src="assets/images/logo.png" width={"71px"} />
           <img src="assets/images/ic_round-menu.png" width={"24px"} />
         </div>
-        <div className="mt-[20px] md:mt-[80px] text-[20px] md:text-[32px] text-white">
+        <div className="mt-[20px] md:mt-[50px] text-[20px] md:text-[32px] text-white">
           How we work
         </div>
         <div className="mt-[12px] md:mt-[5px] text-[12px] md:text-[18px]">
