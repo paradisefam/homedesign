@@ -31,7 +31,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-[65%] mx-auto flex items-center justify-center py-10 relative">
+        <div className="w-[80%] mx-auto flex items-center justify-center py-10 relative">
           <img src="assets/images/home1.png" className="w-1/2" />
           <img src="assets/images/home2.png" className="w-1/2" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-white  change-home-btn">
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex mx-auto items-center justify-between w-[60%]">
+        <div className="flex mx-auto items-center justify-between w-[60%] mb-[20px]">
           <div>
             <HomeBtn className="text-white text-[20px] my-[30px] failed-btn">
               Try again

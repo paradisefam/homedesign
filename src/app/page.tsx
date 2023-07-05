@@ -10,7 +10,7 @@ export default function Home() {
           <img src="assets/images/ic_round-menu.png" width={"24px"} />
         </div>
         <div className="grid md:grid-cols-2 gap-4">
-          <div className="mt-[20px] md:mt-0">
+          <div className="mt-[20px] md:mt-5">
             <div className="hidden md:block mb-4">
               <img src="assets/images/logo.png" width={"100px"} />
             </div>
@@ -27,7 +27,7 @@ export default function Home() {
               Get Started
             </HomeBtn>
           </div>
-          <div className="py-[32px] px-[23px] md:py-[30px] md:px-[35px] rounded-[10px] md:rounded-[20px] bg-[#0E1E2B] border border-[#FFF5F5] text-[12px] md:text-[16px] md:w-3/4 my-[29px] md:mt-0 md:ml-auto">
+          <div className="py-[32px] px-[23px] md:py-[30px] md:px-[35px] rounded-[10px] md:rounded-[20px] bg-[#0E1E2B] border border-[#FFF5F5] text-[12px] md:text-[16px] md:w-3/4 my-[29px] md:mt-6 md:ml-auto">
             <div>
               <div className="mb-[16px]">
                 Start your home interior design with rendro.ai
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center relative w-[65%] mx-auto">
+        <div className="flex items-center justify-center relative w-[65%] mx-auto my-[50px]">
           <img src="assets/images/home1.png" className="w-1/2" />
           <img src="assets/images/home2.png" className="w-1/2" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-white  change-home-btn">

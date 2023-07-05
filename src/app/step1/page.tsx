@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="landing text-white">
       <div className="grid">
-        <div className="w-[70%] mx-auto">
+        <div className="w-[70%] mx-auto mt-[50px]">
           <div className="timeline-badge mt-[10px] flex mx-[100px]">
             <div className="w-1/5">
               <div className="bg-[#164555] w-[30px] h-[30px] m-auto rounded-full flex justify-center items-center text-white text-[25px]">
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-row ml-[30px] items-center">
+          <div className="flex flex-row ml-[30px] items-center mt-[30px] mb-3">
             <div className="basis-1/2">
               <div className="text-[20px] pl-[20px]">
                 1. Which couch would you prefer to snuggle up on ?

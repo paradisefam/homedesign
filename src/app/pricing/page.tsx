@@ -9,7 +9,7 @@ export default function Home() {
         <div className="text-[#3E849E] text-[16px] font-bold">
           PREMIUM PRICING PLANS
         </div>
-        <div className="text-[20px] font-bold mb-[10px]">
+        <div className="text-[24px] font-bold mb-[10px]">
           Choose the plan that fits
           <br />
           your needs!
@@ -21,8 +21,8 @@ export default function Home() {
       </div>
 
       <div className="w-[70%] mx-auto">
-        <div className="flex flex-row mb-[10px] mt-[10px]">
-          <div className="basis-1/3 card mx-[20px]">
+        <div className="flex flex-row mb-[20px] mt-[20px]">
+          <div className="basis-1/3 card mx-[20px] mt-[40px]">
             <div className="container-custom flex flex-row items-center justify-between mt-3">
               <div className="basis-1/4">
                 <img src="assets/images/pricing/1.png" alt="" width={"50px"} />
@@ -209,7 +209,7 @@ export default function Home() {
                   <span className="text-[14px]">Cancel anytime</span>
                 </li>
               </ul>
-              <div className="text-[14px] text-center mt-2">
+              <div className="text-[14px] text-center mt-[50px]">
                 Early Bird Offer Expiring
               </div>
               <div className="text-[#51ACC5] text-[20px] text-center font-bold">
@@ -220,7 +220,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="basis-1/3 card mx-[20px]">
+          <div className="basis-1/3 card mx-[20px] mt-[40px]">
             <div className="container-custom flex flex-row items-center justify-between mt-3">
               <div className="basis-1/4">
                 <img src="assets/images/pricing/1.png" alt="" width={"50px"} />
